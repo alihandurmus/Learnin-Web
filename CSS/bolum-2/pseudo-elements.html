@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       p::first-line{
+        font-weight: bold;
+        color : brown;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+       }
+       p.about::first-line{
+        color : green;
+       }
+       p::first-letter{
+        font-size: 30px;
+       }
+       ::selection{
+        background-color: purple;
+       }
+       p::after{
+        content: '\1F61C';
+        font-size: 30px;
+
+       }
+
+
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam animi, minima aliquam eaque consequatur maiores consequuntur quaerat molestias voluptatem sunt, dolorum blandcitiis porro accusamus distinctio nesciunt ipsam eveniet at!</p>
+    <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum, doloribus, maxime quam veniam reiciendis suscipit at quaerat perspiciatis, excepturi animi in eveniet quis magni ea eaque reprehenderit voluptatibus pariatur.</p>
+</body>
+</html>

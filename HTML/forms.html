@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php">
+       <div>
+        <label for="name">Adınız</label>
+        <input type="text" id="name">
+       </div>
+       <div>
+        <label for="surname">Soyadınız</label>
+        <input type="text" id="surname">
+       </div>
+       <div>
+        <label for="parola">Parola</label>
+        <input type="password" id="parola">
+       </div>
+       <div>
+        <label for="metin">Kendinden Bahset</label>
+        <textarea name="" id="metin" ></textarea>
+       </div>
+       <div>
+        En sevdiğin programlama dili:
+       </div>
+        <div>
+            <input type="radio" name="programlama" id="html">
+            <label for="html">HTML</label>
+            <input type="radio" name="programlama" id="css">
+            <label for="css">CSS</label>
+            <input type="radio" name="programlama" id="javascript">
+            <label for="javascript">Javascript</label>
+
+        </div>
+        <div>
+            En sevdiğin programlama dili:
+           </div>
+           <div>
+            <input type="checkbox"  id="html2">
+            <label for="html2">HTML</label>
+            <input type="checkbox"  id="css2">
+            <label for="css2">CSS</label>
+            <input type="checkbox"  id="javascript2">
+            <label for="javascript2">Javascript</label>
+
+           </div>
+           <div>
+            <label for="sehir">Şehir</label>
+            <select  id="sehir" >
+                <option value="41">Kocaeli</option>
+                <option value="34">İstanbul</option>
+                <option value="16">Bursa</option>
+                <option value="03">Afyonkarahisar</option>
+            </select>
+           </div>
+           <div>
+            <label for="eposta">Email</label>
+            <input type="email"  id="eposta">
+           </div>
+           <div>
+            <label for="tarih">Date</label>
+            <input type="date" name="tarih" id="tarih">
+           </div>
+           <button type="reset">Resetle</button>
+        <button type="submit">Kaydet</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #showcase{
+            background-color: brown;
+            padding: 20px 5px;
+            height: 500px;
+            
+        }
+       
+        #how-it-works{
+            background-color: aqua;
+        }
+        nav{
+            display: inline-block;
+            background-color: bisque;
+            width: calc(100% - 119px);
+            text-align: right;
+        }
+        
+            
+        
+        .link{
+            padding: 10px;
+            background-color: bisque;
+        }
+        .link__items{
+            list-style: none;
+        }
+        .link__item{
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .logo{
+            color: coral;
+            text-decoration: none;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        .link__item a{
+            text-decoration: none;
+            color:coral;
+        }
+        .link__item a:link , .link__item a:visited{
+            color:#fff;
+
+
+        }
+        
+        .link__item a:hover , .link__item:hover::before{
+            color :darkblue
+        }
+        .link__item a:active , .link__item:active::before{
+            color:black;
+        }
+        .link__item::before{
+            content: '\2022';
+            padding: 3px;
+            color: #fff;
+        }
+        
+       
+        
+        
+    </style>
+    
+</head>
+<body>
+    <header class="link">
+        <a href="#" class="logo">MovieApp</a>
+    <nav class="link">
+        <ul class="link__items">
+        <li class="link__item"><a href="#">Home</a></li>
+        <li class="link__item"><a href="#">Movies</a></li>
+        <li class="link__item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <section id="showcase">
+            <h1 >Welcome The Movie App</h1>
+        </section>
+        <section id = "how-it-works">
+            <h2 >How it Works?</h2>
+        </section>
+    </main>
+</body>
+</html>
